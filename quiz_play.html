@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Math Quiz Game </title>
+    <link rel="stylesheet" href="quiz_play.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="quiz_Play.js"></script>
+    <script src="quiz_login.js"></script>
+        <link rel="icon" href="https://w7.pngwing.com/pngs/708/818/png-transparent-computer-icons-scientific-calculator-symbol-mathematics-calculator-electronics-computer-logo.png"> 
+
+
+</head>
+
+<body onload="startup()" style="background-color: skyblue;">
+    <h2 style="padding-left: 10px;"> Score Board:</h2>
+    <h4 style="padding-left: 10px;" id="player1_name"> </h4>
+    <h4 style="padding-left: 10px;" id="player2_name"></h4
+
+    <div class="container">
+        <center>
+            <h1 style="padding-bottom:10px"> Math Quiz Game! </h1>
+            <h3 id="question_player"> </h3>
+            <h3 id="answer_player"> </h3>
+            <div id="output" style="padding-bottom: 10px;"> </div>
+            <h4 style="color: black;"> <b> Number 1 </b> </h4> <input type="text"
+                id="number1"> <br><br>
+            <h4 style="color: black;"> <b> Number 2 </b> </h4> <input type="text"
+                id="number2"> <br>
+
+                <button style="border-radius: 10px; color: black; background-color: limegreen; margin-top: 50px; width: 26%; font-size: 60px;" onclick="send()"> Send! </button>
+        </center>
+    </div>
+
+    <script src="//code.tidio.co/bo7ojrr3a3sjwj3r8wtpg8llxeyvhw0m.js" async></script>
+</body>
+
+</html>
