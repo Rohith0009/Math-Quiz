@@ -43,16 +43,14 @@ function check() {
       player2_score = player2_score + 1;
       document.getElementById("player2_name").innerHTML = player2_name + ": " + player2_score + " Points";
     }
-  }
-
-  else {
-        if (answer_turn == "player1") {
-          player1_score = player1_score - 1;
-          document.getElementById("player1_name").innerHTML = player1_name + ": " + player1_score + " Points";
-        } else {
-          player2_score = player2_score - 1;
-          document.getElementById("player2_name").innerHTML = player2_name + ": " + player2_score + " Points";
-        }
+  } else {
+    if (answer_turn == "player1") {
+      player1_score = player1_score - 1;
+      document.getElementById("player1_name").innerHTML = player1_name + ": " + player1_score + " Points";
+    } else {
+      player2_score = player2_score - 1;
+      document.getElementById("player2_name").innerHTML = player2_name + ": " + player2_score + " Points";
+    }
   }
 
   if (question_turn == "player1") {
